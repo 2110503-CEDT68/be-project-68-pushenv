@@ -6,10 +6,10 @@
 - [ ] Implement Interview model (date, user ref, company ref, booking limit, date validation)
 
 ## Auth Routes (`/api/v1/auth`)
-- [ ] Add telephone field to registration
+- [X] Add telephone field to registration
 - [X] Fix `succes` typo in login responses
-- [ ] Add try/catch to login and getMe
-- [ ] Implement logout endpoint (clear cookie)
+- [X] Add try/catch to login and getMe
+- [X] Implement logout endpoint (clear cookie)
 
 ## Company Routes (`/api/v1/companies`)
 - [ ] GET all companies
