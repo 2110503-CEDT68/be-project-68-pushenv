@@ -4,8 +4,16 @@ const User = require('../models/User')
 //Protect routes
 exports.protect=async (req,res,next)=>{
     let token;
+<<<<<<< Updated upstream
     if(req.headers.authorization && req.headers.authorization.startsWith('Bearer')){
         token = req.headers.authorization.split(' ')[1];
+=======
+
+    if(req.headers.authorization && req.headers.authorization.startsWith('Bearer')){
+        token = req.headers.authorization.split(' ')[1];
+    } else if (req.cookies && req.cookies.token) {
+        token = req.cookies.token;
+>>>>>>> Stashed changes
     }
 
     if(!token){
@@ -35,4 +43,8 @@ exports.authorize=(...roles)=>{
         }
         next();
     }
+<<<<<<< Updated upstream
 }
+=======
+}
+>>>>>>> Stashed changes
