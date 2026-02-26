@@ -2,7 +2,7 @@
 
 ## Models
 - [X] Add `tel` field to User model and fix password re-hash bug
-- [ ] Implement Company model (name, address, website, description, tel)
+- [X] Implement Company model (name, address, website, description, tel)
 - [ ] Implement Interview model (date, user ref, company ref, booking limit, date validation)
 
 ## Auth Routes (`/api/v1/auth`)
@@ -12,11 +12,11 @@
 - [X] Implement logout endpoint (clear cookie)
 
 ## Company Routes (`/api/v1/companies`)
-- [ ] GET all companies
-- [ ] GET single company
-- [ ] POST create company (admin only)
-- [ ] PUT update company (admin only)
-- [ ] DELETE company (admin only)
+- [X] GET all companies
+- [X] GET single company
+- [X] POST create company (admin only)
+- [X] PUT update company (admin only)
+- [X] DELETE company (admin only)
 
 ## Interview Routes (`/api/v1/interviews`)
 - [ ] GET all interview bookings (admin only)
@@ -36,6 +36,6 @@
 
 ## Testing & Documentation
 - [ ] Add Postman/Newman tests
-- [ ] Add seeder script for initial data
+- [X] Add seeder script for initial data
 - [ ] Add API documentation (Swagger/OpenAPI or README summary)
 - [ ] Add `.env` validation
